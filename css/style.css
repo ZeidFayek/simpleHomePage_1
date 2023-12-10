@@ -1,0 +1,304 @@
+body
+{
+    font-family: "Poppins", sans-serif;
+}
+.home
+{
+    background-image: url('../images/intro-bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.Dark
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.nav-link
+{
+    color: rgb(230,230,230);
+}
+.nav-link:hover
+{
+  color: #20C997;
+}
+.header_{
+    color: #FFFFFF;
+    position: absolute;
+    left: 3px;
+}
+.centr
+{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.content_home
+{
+    color: #FFFFFF
+}
+.content_home h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.content_home p{
+    font-size:20px;
+}
+.rounded-pill
+{
+    width: 150px;
+    height: 55px;
+    border: 2px solid #20C997;
+    background: none;
+    color: #20C997;
+}
+.about_me{
+    text-align: center;
+    padding: 85px 0px 0px 0px;
+}
+.hide_color
+{
+    text-align: center;
+    color: #EEF0F1;
+    font-size: 150px;
+}
+.pos{
+    position: relative;
+    bottom: 128px;
+}
+.line
+{
+    width: 90px;
+    height: 2px;
+    background-color: #20C997;
+    margin: auto;
+}
+.about_me_left
+{
+    width: 60%;
+    float: left;
+}
+.about_me_right
+{
+width: 30%;
+float: right;
+}
+.border-bottom {
+    padding: 0px 0px 10px 0px;
+}
+.clear_fixed{
+clear: both;
+}
+.experiance_style
+{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.what_I_do
+{
+    height: 755px;
+    text-align: center;
+    background-color: #F8F9FA;
+    padding: 85px 0px 0px 0px;
+}
+.pos_1
+{
+    position: relative;
+    bottom: 130px;
+}
+.what_I_do_left
+{
+    text-align: start;
+    width: 50%;
+    float: left;
+}
+.what_I_do_right
+{
+    text-align: start;
+    width: 50%;
+    float: right;
+}
+.what_I_do_left >h4
+{
+    font-weight: bold;
+}
+.what_I_do_right >h4
+{
+    font-weight: bold;
+}
+/*Resume*/
+.pos_2{
+    text-align: center;
+    position: relative;
+    bottom: 125px;
+}
+.resume_left
+{
+    width: 50%;
+    float: left;
+}
+.cs{
+    width: 579px;
+    height: 215px;
+}
+.baground_date
+{
+    width: 95px;
+    height: 23px;
+    background-color: #20C997;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+}
+.resume_right
+{
+    float: right;
+    width: 50%;
+}
+.ratio
+{
+    height: 10px;
+    width: 579px;
+    background-color: #E9ECEF;
+    border-radius: 5px;
+}
+.ratio_color1
+{
+    height: 10px;
+    width: 390px;
+    background-color: #20C997;
+    border-radius: 5px; 
+    position: relative;
+    bottom: 10px; 
+}
+.ratio_color2
+{
+    height: 10px;
+    width: 545px;
+    background-color: #20C997;
+    border-radius: 5px; 
+    position: relative;
+    bottom: 10px; 
+}
+.ratio_color3
+{
+    height: 10px;
+    width: 500px;
+    background-color: #20C997;
+    border-radius: 5px; 
+    position: relative;
+    bottom: 10px; 
+}
+.skills_left
+{
+    width: 50%;
+    float: left;
+}
+.skills_right
+{
+    width: 50%;
+    float: right;
+}
+.ratio_color4
+{
+    height: 10px;
+    width: 55px;
+    background-color: #20C997;
+    border-radius: 5px; 
+    position: relative;
+    bottom: 10px; 
+}.ratio_color5
+{
+    height: 10px;
+    width: 105px;
+    background-color: #20C997;
+    border-radius: 5px; 
+    position: relative;
+    bottom: 10px; 
+}.ratio_color6
+{
+    height: 10px;
+    width: 570px;
+    background-color: #20C997;
+    border-radius: 5px; 
+    position: relative;
+    bottom: 10px; 
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    background: none;
+    border: 1px solid #6C757D;
+    transition:  background-color 1s ease-out;
+}
+.btn:hover{
+    background-color: #6C757D;
+}
+.cntr{
+   display: flex;
+   justify-content: center;
+}
+/*portfolio*/
+.pos_3{
+    text-align: center;
+    position: relative;
+    bottom: 128px;
+}
+.portfolio
+{
+    background-color:#F8F9FA;
+    height: 1460px;
+    padding: 60px 0px 0px 0px;
+}
+.padding_div  img
+{
+    width: 98%;
+    padding: 6px;
+}
+.porto_image
+{
+    width: 33.3333%;
+    border-radius: 6px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.portfolio .nav-link
+{
+    color: #8B8084;
+}
+ 
+.le img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+.client_lft
+{
+    width: 590px;
+    height: 203px;
+    padding: 22px;
+    float: left;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+.client_right
+{
+    width: 590px;
+    height: 203px;
+    padding: 22px;  
+    float: right;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
